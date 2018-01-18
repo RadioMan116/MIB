@@ -1,0 +1,451 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.div1 {
+  border: 1px solid;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(308deg, #272333, #000000);
+}
+
+.div1 img {
+  position: absolute;
+  left: 21%;
+  top: 24%;
+}
+
+.saidbar {
+  width: 6.6rem;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div1_title {
+  color: white;
+  font-size: 20rem;
+  margin: 7rem 0 0;
+  text-align: center;
+}
+
+.div1_title_2 {
+  color: white;
+  font-size: 3.2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.rs-container {
+  margin: 2.06rem;
+}
+
+.RS {
+  width: 51px;
+  height: 34px;
+  border: 1px solid;
+  margin: 1.5rem;
+}
+
+.rails {
+  width: 15%;
+  height: 500rem;
+  border: 1px solid red;
+}
+
+.div2 {
+  margin-left: 9%;
+  width: 91%;
+  position: relative;
+}
+
+.div2 img {
+  width: 100%;
+}
+
+.posit {
+  margin: 2rem 0 0 4.22077922%;
+}
+
+.posit, .posit_2, .posit_2_text {
+  position: absolute;
+}
+
+.posit_2 {
+  bottom: 17%;
+  left: 10%;
+}
+
+.posit_2 h2 {
+  font-size: 60px;
+  color: white;
+  opacity: 0.2;
+}
+
+.posit_2_text {
+  left: 10%;
+  bottom: 15%;
+  background: #fff;
+  opacity: 0.5;
+}
+
+.posit_2_text p {
+  margin: 0;
+  padding: 3px 1.80rem 1rem 1rem;
+  font-size: 18px;
+}
+
+.div_p {
+  font-size: 14px;
+  color: white;
+}
+
+.saidbar_div2 {
+  width: 9%;
+  min-width: 5.625rem;
+  position: fixed;
+  background: #fff;
+}
+
+.block_saidbar {
+  background: #fff;
+  width: 100%;
+  height: 10.6rem;
+}
+
+.bl_sb {
+  background: #000;
+}
+
+.rb {
+  color: white;
+}
+
+.rotatable {
+  transform: rotate(-90deg);
+  font-size: 20px;
+  height: 5rem;
+  margin: 0;
+  width: 142%;
+}
+
+.comand {
+  width: 924px;
+  height: 489.4px;
+  opacity: 0.35;
+  filter: blur(1px);
+  background-color: #000000;
+  border: solid 1px #979797;
+}
+
+.div3 {
+  margin-left: 9%;
+  width: 91%;
+  background: url("/images/bg.png") no-repeat;
+  background-size: cover;
+}
+
+.div3 img {
+  width: 100%;
+}
+
+.div_3_block {
+  margin: 4.7875rem 0 0 4.22077922%;
+}
+
+.div_3_block h3 {
+  font-size: 24px;
+}
+
+.div_3_block p {
+  font-size: 18px;
+}
+
+.block_h3 {
+  padding: 3.3125rem 0 0 4.22077922%;
+  font-size: 24px;
+}
+
+.div_3_info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.marketing, .diz, .work {
+  width: 45%;
+  padding-left: 2.38095238%;
+}
+
+.usability, .adaptive, .seo {
+  width: 47%;
+}
+
+.div_3_info_h3 {
+  margin-left: 7%;
+}
+
+.diz_h3 {
+  margin-top: 0;
+}
+
+.div_3_info_p {
+  background: #fff;
+  border: 1px solid #2a2735;
+  padding: 10px 10px 30px 2.38095238%;
+  width: 89%;
+  font-size: 14px;
+}
+
+.info_block p {
+  margin: 0;
+  padding: 7px 1rem 1.5rem 1.3rem;
+}
+
+.who_h3 {
+  font-size: 24px;
+  padding-left: 4.22077922%;
+}
+
+.who_text {
+  margin-left: 4.22077922%;
+  font-size: 18px;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.input_1 {
+  margin: 20px 0 0 89px;
+}
+
+.input_2 {
+  margin: 20px 0 0 40px;
+}
+
+.div4 {
+  background-image: linear-gradient(344deg, #000000, #2f2c3b);
+  margin-left: 9%;
+  width: 91%;
+}
+
+.div10_span {
+  position: relative;
+  height: 2.5rem;
+  display: flex;
+  background: #f1f1f1;
+  align-items: center;
+  width: 95.9%;
+  cursor: pointer;
+  margin-top: 5.625rem;
+  padding-left: 4.11255411%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.div10_br {
+  width: 5rem;
+}
+
+.div_104_span {
+  margin-top: 2rem;
+}
+
+.div10_p_two {
+  position: absolute;
+  right: 0;
+  padding-right: 9.9609375%;
+  opacity: 0;
+  bottom: -13px;
+  display: flex;
+}
+
+.div10_p_one {
+  position: absolute;
+  right: 0;
+  padding-right: 9.9609375%;
+  bottom: -13px;
+  display: flex;
+}
+
+.active p:first-child {
+  display: none;
+}
+
+.active p:last-child {
+  opacity: 1;
+}
+
+.div10:hover > .div10_span {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.div10_main {
+  display: none;
+  padding-bottom: 2rem;
+}
+
+.div10_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div10_info {
+  margin: 2.5625rem 0 0 4.11255411%;
+}
+
+.div10_info_h4 {
+  font-size: 20px;
+  color: #f1f1f1;
+}
+
+.div10_info p {
+  color: #f1f1f1;
+  font-size: 18px;
+}
+
+.div10_info_two {
+  width: 22.4375rem;
+  margin-top: 3rem;
+  line-height: 1.39;
+  font-size: 18px;
+  color: #f1f1f1;
+  margin-right: 7.03463203%;
+}
+
+.div5 {
+  filter: blur(0.2px);
+  background-image: linear-gradient(344deg, #000000, #2f2c3b);
+  //background: url("/images/13501.png");
+  margin-left: 9%;
+  width: 91%;
+  display: flex;
+  justify-content: center;
+}
+
+//.div5 img {
+//  width: 100%;
+//}
+
+.div_5_block {
+  width: 285px;
+  height: 225px;
+  background-color: #231e2e;
+  margin-top: 4.9375rem;
+}
+
+.div_5_block p {
+  font-size: 18px;
+  color: white;
+  padding: 45px 48px 0 65px;
+}
+
+.div_5_block_two {
+  width: 536px;
+  height: 340px;
+  filter: blur(0.1px);
+  margin: 12.4375rem 0 7rem 0;
+  background-color: #fcfcfc;
+}
+
+.div_5_block_two p {
+  line-height: 1.43;
+  font-size: 14px;
+  color: #231e2e;
+  padding: 5px 54px 0 20px;
+}
+
+.div6 {
+  margin-left: 9%;
+  width: 91%;
+  background-image: linear-gradient(344deg, #ff00d0, #ff0035);
+  height: 20rem;
+}
+
+.div6 h1 {
+  color: #000;
+  transform: rotate(-27deg);
+  font-size: 79px;
+  width: 0;
+  margin: 0;
+  left: 40%;
+  top: 65%;
+  position: relative;
+}
+
+.footer {
+  margin-left: 9%;
+  width: 91%;
+  background-image: linear-gradient(344deg, #000000, #2f2c3b);
+}
+
+.message {
+  width: 36.25rem;
+  height: 36.5rem;
+  background: #fff;
+  margin: 10rem auto 1.5rem;
+}
+
+.message_h3 {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.message p {
+  font-size: 12px;
+  padding-left: 5.08658009%;
+}
+
+.message_h3_two {
+  padding-left: 5.08658009%;
+}
+
+.message_input {
+  margin-left: 5.08658009%;
+}
+
+.msg_inp {
+  width: 16.3125rem;
+  padding-left: 2.05627706%;
+}
+
+.button {
+  margin-top: 1.5rem;
+}
+
+.footer_subscribe {
+  width: 36.25rem;
+  font-size: 18px;
+  margin: 0 auto;
+  color: white;
+}
+
+.subscribe_h3 {
+  margin-top: 3.8125rem;
+}
