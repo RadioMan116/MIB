@@ -62,7 +62,7 @@ img {
 }
 
 .sidebar {
-  width: 6.6rem;
+  width: 9%;
   height: 100vh;
   background: #fff;
   display: flex;
@@ -281,7 +281,7 @@ img {
   margin: 45px 0 0 71px;
   background: #ffffff;
   border: solid 1px #2a2735;
-  width: 6.4375rem;
+  width: 9%;
   height: 3.75rem;
 }
 
@@ -289,12 +289,12 @@ img {
   margin: 45px 0 0 17px;
   background: #ffffff;
   border: solid 1px #2a2735;
-  width: 6.4375rem;
+  width: 9%;
   height: 3.75rem;
 }
 
 .input_3 {
-  width: 7.5625rem;
+  width: 11%;
   height: 3.75rem
 }
 
@@ -397,7 +397,7 @@ img {
 }
 
 .div_5_block {
-  width: 285px;
+  width: 25%;
   height: 225px;
   background-color: #362d48;
   margin-top: 4.9375rem;
@@ -410,8 +410,7 @@ img {
 }
 
 .div_5_block_two {
-  width: 536px;
-  height: 340px;
+  width: 48%;
   filter: blur(0.1px);
   margin: 12.4375rem 0 7rem 0;
   background-color: #fcfcfc;
@@ -421,7 +420,7 @@ img {
   line-height: 1.43;
   font-size: 14px;
   color: #231e2e;
-  padding: 5px 54px 0 20px;
+  padding: 5px 54px 2px 20px;
 }
 
 .div5_block_three {
@@ -457,8 +456,10 @@ img {
   width: 85%;
   height: 34.75rem;
   border: 1px solid black;
-  background: url("/images/slider.png") no-repeat;
+  background: url("/images/metal.png") no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: space-between;
 }
 
 .slider_sidebar {
@@ -488,6 +489,14 @@ img {
   height: 6.4375rem;
   border: 1px solid white;
   margin-top: 1.5rem;
+}
+
+.down {
+  margin-top: 1rem;
+}
+
+.circle_img {
+  margin-right: 10%;
 }
 
 .slider_item p {
