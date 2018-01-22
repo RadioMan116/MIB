@@ -104,44 +104,16 @@ img {
 .div2 {
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .div2 img {
   width: 100%;
+  top: -350px;
+  position: relative;
 }
 
-.posit {
-  margin: 2rem 0 0 4.22077922%;
-}
 
-.posit, .posit_2, .posit_2_text {
-  position: absolute;
-}
-
-.posit_2 {
-  bottom: 26%;
-  left: 17%;
-}
-
-.posit_2 h2 {
-  font-size: 60px;
-  color: white;
-  opacity: 0.2;
-  font-weight: 200;
-}
-
-.posit_2_text {
-  left: 17%;
-  bottom: 24%;
-  background: #fff;
-  opacity: 0.5;
-}
-
-.posit_2_text p {
-  margin: 0;
-  padding: 3px 1.80rem 1rem 1rem;
-  font-size: 18px;
-}
 
 .div_p {
   font-size: 14px;

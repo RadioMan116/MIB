@@ -38,16 +38,6 @@
         </div>
     </header>
     <div class="div2">
-        <!--<div class="posit">-->
-        <!--<p class="div_p">Команда:</p>-->
-        <!--</div>-->
-        <!--<div class="posit_2">-->
-        <!--<h2>Веб-сайты</h2>-->
-        <!--</div>-->
-        <!--<div class="posit_2_text">-->
-        <!--<p><b>«Суперменов не бывает. Всё значимое и судьбоносное создаётся с командой.» <br>-->
-        <!--/Стив Джобс/</b></p>-->
-        <!--</div>-->
         <img class="div2_img" src="/images/studio.png" alt="photo">
     </div>
     <div class="div3">
@@ -163,9 +153,6 @@
         </div>
     </div>
     <div class="div4">
-        <!--<div class="posit">-->
-        <!--<p class="div_p">Витрина:</p>-->
-        <!--</div>-->
         <div class="div_104">
         <span class="div10_span div_104_span">
             Сайт визитка
@@ -755,9 +742,6 @@
         </p>
     </div>
     <footer class="footer">
-        <div class="posit">
-            <p class="div_p">Связь</p>
-        </div>
         <div class="message">
             <h3 class="message_h3">Напишите нам письмо</h3>
             <p>
@@ -811,12 +795,9 @@
     $(window).scroll(function () {
         var st = $(this).scrollTop();
 
-//    $(".posit_2").css({
-//        "transform" : "translate(0%, -" + st /10 + "%"
-//    });
-//    $(".posit_2_text").css({
-//        "transform" : "translate(0%, -" + st /4 + "%"
-//    });
+    $(".div2_img").css({
+            "transform" : "translate(0%, " + st /11 + "%"
+        });
     });
 </script>
 
