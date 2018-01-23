@@ -707,32 +707,52 @@
 
     <div class="slider">
         <div class="slider_block">
-
             <div class="slider_sidebar">
                 <h2>
                     Портфолио
                 </h2>
                 <div class="slider_block_two">
                     <img class="up" src="/images/up.png" alt="Вверх">
-                    <div class="slider_item">
-                        <p>
-                            Перейти на сайт
-                        </p>
-                    </div>
-                    <div class="slider_item">
-                        <p>
-                            Перейти на сайт
-                        </p>
-                    </div>
-                    <div class="slider_item">
-                        <p>
-                            Перейти на сайт
-                        </p>
+                    <div class="slider_scroll">
+                        <div class="slider_item">
+                            <p>
+                                Перейти на сайт
+                            </p>
+                        </div>
+                        <div class="slider_item item">
+                            <p>
+                                Перейти на сайт
+                            </p>
+                        </div>
+                        <div class="slider_item item">
+                            <p>
+                                Перейти на сайт
+                            </p>
+                        </div>
+                        <div class="slider_item item">
+                            <p>
+                                Перейти на сайт
+                            </p>
+                        </div>
                     </div>
                     <img class="down" src="/images/down.png" alt="Вниз">
                 </div>
             </div>
-            <img class="circle_img" src="/images/circle.svg" alt="Круг">
+            <div class="slider_block_scroll">
+                <div class="block_scroll masterskaya">
+                    <img class="circle_img" src="/images/circle.svg" alt="Круг">
+                </div>
+                <div class="block_scroll kvadrati">
+                    <img class="circle_img" src="/images/circle.svg" alt="Круг">
+                </div>
+                <div class="block_scroll metal">
+                    <img class="circle_img" src="/images/circle.svg" alt="Круг">
+                </div>
+                <div class="block_scroll manipulyator">
+                    <img class="circle_img" src="/images/circle.svg" alt="Круг">
+                </div>
+
+            </div>
         </div>
     </div>
     <div class="div7">
@@ -795,9 +815,13 @@
     $(window).scroll(function () {
         var st = $(this).scrollTop();
 
-    $(".div2_img").css({
-            "transform" : "translate(0%, " + st /11 + "%"
+        $(".div2_img").css({
+            "transform": "translate(0%, " + st / 11 + "%"
         });
+    });
+
+    $(".up").click(function () {
+        alert("Ghbdtn");
     });
 </script>
 
