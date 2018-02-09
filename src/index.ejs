@@ -5,6 +5,8 @@
     <title>MIB</title>
     <style><%- criticalStyle %></style>
     <script src="jquery-1.7.2.js"></script>
+    <script src="jquery-1.5.1.min.js"></script>
+    <script src="jquery.orbit-1.2.3.min.js"></script>
 </head>
 <body>
 <div class="grid-container">
@@ -40,11 +42,29 @@
             <div class="burger_trigger">
                 <div class="burger"></div>
                 <ul class="menu">
-                    <li>Главная</li>
-                    <li>Команда</li>
-                    <li>Витрина</li>
-                    <li>Портфолио</li>
-                    <li>Связь</li>
+                    <li>
+                        Главная
+                    </li>
+                    <a onclick="slowScroll ('#command')">
+                        <li>
+                            Команда
+                        </li>
+                    </a>
+                    <a onclick="slowScroll ('#window')">
+                        <li>
+                            Витрина
+                        </li>
+                    </a>
+                    <a onclick="slowScroll ('#portfolio')">
+                        <li>
+                            Портфолио
+                        </li>
+                    </a>
+                    <a onclick="slowScroll ('#connect')">
+                        <li>
+                            Связь
+                        </li>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -77,6 +97,114 @@
             <h3>Чем мы занимаемся?</h3>
             <p>–Создаем адаптивные сайты с современным уникальным дизайном.</p>
             <p>–Разрабатываем индивидуальные проекты любой сложности.</p>
+        </div>
+        <h3 class="block_two_h3">Как мы это делаем?</h3>
+        <div class="marketing_wrapper">
+            <div class="marketing">
+                <h3 class="div_3_info_h3">Маркетинг</h3>
+                <p class="div_3_info_p">
+                    Сайт – это один из каналов продаж. И даже, если вы
+                    не продаете товар или услугу, и Вам нужно просто
+                    представительство в Интернете… <br>
+                    <br>
+                    И было бы странным отсутствие маркетолога в
+                    цепочке создания сайта.Мы не только учимся на
+                    своем опыте, но и изучаем всё в данной сфере.
+                </p>
+            </div>
+            <div class="diz">
+                <h3 class="div_3_info_h3 diz_h3">Уникальный дизайн</h3>
+                <p class="div_3_info_p">
+                    Современный уникальный дизайн говорит
+                    посетителю: «Мы - серьезная компания, идущая в
+                    ногу со временем. Наш продукт соответствует
+                    текущим тенденциям». <br>
+                    <br>
+                    Мы учитываем самые современные тренды в веб-
+                    дизайне, но при этом мы прислушиваем-ся к мнению
+                    заказчика.Просто посмотрите наше портфолио.
+                </p>
+            </div>
+            <div class="work">
+                <h3 class="div_3_info_h3 work_h3"> Скорость работы</h3>
+                <p class="div_3_info_p">
+                    Медленно грузится сайт? <br>
+                    Мелькнула спина Вашего потенциального
+                    клиента. Он ушел, т.к. у него нет времени ждать
+                    медленную загрузку. <br>
+                    <br>
+                    У нас сервер с каналом 100 мбит/сек. <br>
+                    Наш сервер, это просто ракета!
+                </p>
+            </div>
+        </div>
+
+        <div class="div3_wrapper_button">
+        <span class="div10_span div_3_button">
+
+            <p class="div10_p_one div3_p">
+               Показать полностью...
+            </p>
+            <p class="div10_p_two div3_p">
+               Скрыть.
+            </p>
+        </span>
+            <div class="div10_main div3_main">
+                <div class="div10_flex">
+                    <div class="div10_info div_3_main">
+                        <div class="usability">
+                            <h3 class="div_3_info_h3">Usability–Удобочитаемость</h3>
+                            <p class="div_3_info_p ">
+                                Удобство пользования сайтом. <br>
+                                Ведь нам не нужно, чтобы из-за чей-то креативной
+                                идеи посетитель просто ушел, не найдя нужную
+                                информацию? <br>
+                                <br>
+                                В подготовке прототипа принимают участие:
+                                маркетолог, дизайнер и верстальщик.
+                                В итоге, вы получите структуру, проработанную
+                                со всех сторон.
+                            </p>
+                        </div>
+                        <div class="adaptive">
+                            <h3 class="div_3_info_h3"> Адаптивность</h3>
+
+                            <p class="div_3_info_p">
+                                Около 50% пользователей Интернет в России
+                                заходят в сеть с мобильных устройств. <br>
+                                <br>
+                                Наши сайты - адаптивные по-умолчанию и без
+                                дополнительных платежей. <br>
+                                <br>
+                                Посмотрите mib.store в своем телефоне
+                            </p>
+
+                        </div>
+                        <div class="seo">
+                            <h3 class="div_3_info_h3"> СЕО-подготовка</h3>
+
+                            <p class="div_3_info_p ">
+                                Оптимизация кода сайта под рекомендации
+                                поисковых систем – это основа поискового
+                                продвижения. С нее начинается работа при
+                                «поднятии» позиций в результатах выдачи.
+                                А сайт на хороших местах в выдаче приносит
+                                потенциальных клиентов. <br>
+                                <br>
+                                Рекомендации поисковых систем в плане
+                                внутренней оптимизации уже заложены в код
+                                наших сайтов.
+                                И нередко по низко конкурентным запросам они
+                                выходят в ТОП-10 без продвижения.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="div10_info_two">
+
+                    </div>
+                </div>
+            </div>
         </div>
         <h3 class="block_h3">Как мы это делаем?</h3>
         <div class="div_3_info">
@@ -178,9 +306,11 @@
                     мы выкладываемся на полную», наши работы наше
                     лицо!
                 </p>
-                <input class="input_1" type="button" value="Прайс">
-                <input class="input_2" type="button" value="Бриф">
-                <input class="input_2 input_3" type="button" value="Договор">
+                <div class="input_wrapper">
+                    <input class="input_1" type="button" value="Прайс">
+                    <input class="input_2" type="button" value="Бриф">
+                    <input class="input_2 input_3" type="button" value="Договор">
+                </div>
             </div>
         </div>
     </div>
@@ -699,7 +829,7 @@
             <div class="div_5_block">
                 <p>
                     Что вам даст сайт ? <br>
-                    создание <br>
+                    Создание <br>
                     собственного сайта
                     дает целый ряд
                     преимуществ.
@@ -738,52 +868,13 @@
 
 
     <div id="portfolio" class="slider">
-        <div class="slider_block">
-            <div class="slider_sidebar">
-                <h2>
-                    Портфолио
-                </h2>
-                <div class="slider_block_two">
-                    <img class="up" src="/images/up.png" alt="Вверх">
-                    <div class="slider_scroll">
-                        <div class="slider_item">
-                            <p>
-                                Перейти на сайт
-                            </p>
-                        </div>
-                        <div class="slider_item item">
-                            <p>
-                                Перейти на сайт
-                            </p>
-                        </div>
-                        <div class="slider_item item">
-                            <p>
-                                Перейти на сайт
-                            </p>
-                        </div>
-                        <div class="slider_item item">
-                            <p>
-                                Перейти на сайт
-                            </p>
-                        </div>
-                    </div>
-                    <img class="down" src="/images/down.png" alt="Вниз">
-                </div>
-            </div>
-            <div class="slider_block_scroll">
-                <div class="block_scroll masterskaya">
-                    <img class="circle_img" src="/images/circle.svg" alt="Круг">
-                </div>
-                <div class="block_scroll kvadrati">
-                    <img class="circle_img" src="/images/circle.svg" alt="Круг">
-                </div>
-                <div class="block_scroll kvadrati2">
-                    <img class="circle_img" src="/images/circle.svg" alt="Круг">
-                </div>
-                <div class="block_scroll manipulyator">
-                    <img class="circle_img" src="/images/circle.svg" alt="Круг">
-                </div>
 
+        <div class="container">
+            <div id="featured">
+                <img src="/images/masterskya.png">
+                <img src="/images/kvadrati.png">
+                <img src="/images/kvadrati2.png">
+                <img src="/images/manipulyator.png">
             </div>
         </div>
     </div>
@@ -878,9 +969,9 @@
             "transform": "translate(0%, " + st / 11 + "%"
         });
     });
-    //    Слайдер
-    $(".up").click(function () {
-        alert("Ghbdtn");
+    //    Слайдер порфолио
+    $(window).load(function () {
+        $('#featured').orbit();
     });
 </script>
 
