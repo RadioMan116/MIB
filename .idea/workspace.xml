@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7ee94b9-5401-44ad-becd-bfc42444462f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/Thumbs.db" afterPath="$PROJECT_DIR$/src/images/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.ejs" afterPath="$PROJECT_DIR$/src/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/index.scss" afterPath="$PROJECT_DIR$/src/style/index.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,7 +37,7 @@
             <entry file="file://$PROJECT_DIR$/src/style/index.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="441">
-                  <caret line="1167" column="0" lean-forward="true" selection-start-line="1167" selection-start-column="0" selection-end-line="1167" selection-end-column="0" />
+                  <caret line="1167" column="0" lean-forward="false" selection-start-line="1167" selection-start-column="0" selection-end-line="1167" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -168,7 +165,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -330,7 +327,8 @@
       <workItem from="1517596215657" duration="25761000" />
       <workItem from="1517995644006" duration="371000" />
       <workItem from="1517996233304" duration="19372000" />
-      <workItem from="1518167354848" duration="152000" />
+      <workItem from="1518167354848" duration="3150000" />
+      <workItem from="1518253796755" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="RS">
       <created>1516282770353</created>
@@ -350,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211079000" />
+    <option name="totallyTimeSpent" value="214744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,7 +360,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24925373" sideWeight="0.512275" order="2" side_tool="true" content_ui="tabs" />
@@ -716,7 +714,7 @@
     <entry file="file://$PROJECT_DIR$/src/style/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="1167" column="0" lean-forward="true" selection-start-line="1167" selection-start-column="0" selection-end-line="1167" selection-end-column="0" />
+          <caret line="1167" column="0" lean-forward="false" selection-start-line="1167" selection-start-column="0" selection-end-line="1167" selection-end-column="0" />
           <folding />
         </state>
       </provider>
