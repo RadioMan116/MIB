@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7ee94b9-5401-44ad-becd-bfc42444462f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.ejs" afterPath="$PROJECT_DIR$/src/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/index.scss" afterPath="$PROJECT_DIR$/src/style/index.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,7 +23,7 @@
           <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15759">
+                <state relative-caret-position="17">
                   <caret line="927" column="39" lean-forward="false" selection-start-line="927" selection-start-column="39" selection-end-line="927" selection-end-column="39" />
                   <folding />
                 </state>
@@ -39,7 +38,7 @@
             <entry file="file://$PROJECT_DIR$/src/style/index.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
-                  <caret line="236" column="13" lean-forward="false" selection-start-line="236" selection-start-column="13" selection-end-line="236" selection-end-column="13" />
+                  <caret line="833" column="16" lean-forward="false" selection-start-line="833" selection-start-column="16" selection-end-line="833" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -330,7 +329,8 @@
       <workItem from="1517995644006" duration="371000" />
       <workItem from="1517996233304" duration="19372000" />
       <workItem from="1518167354848" duration="3150000" />
-      <workItem from="1518253796755" duration="1778000" />
+      <workItem from="1518253796755" duration="4000000" />
+      <workItem from="1518349366039" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="RS">
       <created>1516282770353</created>
@@ -357,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215855000" />
+    <option name="totallyTimeSpent" value="219143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,7 +723,7 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.947/orbit-1.2.3/demo/demo.html" />
     <entry file="file://$PROJECT_DIR$/src/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15759">
+        <state relative-caret-position="17">
           <caret line="927" column="39" lean-forward="false" selection-start-line="927" selection-start-column="39" selection-end-line="927" selection-end-column="39" />
           <folding />
         </state>
@@ -732,7 +732,7 @@
     <entry file="file://$PROJECT_DIR$/src/style/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="236" column="13" lean-forward="false" selection-start-line="236" selection-start-column="13" selection-end-line="236" selection-end-column="13" />
+          <caret line="833" column="16" lean-forward="false" selection-start-line="833" selection-start-column="16" selection-end-line="833" selection-end-column="16" />
           <folding />
         </state>
       </provider>

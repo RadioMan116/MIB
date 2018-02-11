@@ -408,11 +408,16 @@ img {
   width: 33.9%;
 }
 
+.input_wrapper {
+  width: 60%;
+  min-width: 208px;
+}
+
 .input_1 {
   margin: 45px 0 0 71px;
   background: #ffffff;
   border: solid 1px #2a2735;
-  width: 18%;
+  width: 15%;
   height: 3.75rem;
 }
 
@@ -420,12 +425,12 @@ img {
   margin: 45px 0 0 17px;
   background: #ffffff;
   border: solid 1px #2a2735;
-  width: 18%;
+  width: 15%;
   height: 3.75rem;
 }
 
 .input_3 {
-  width: 22%;
+  width: 19%;
   height: 3.75rem
 }
 
@@ -826,7 +831,7 @@ div.caption {
 
 .message {
   width: 46%;
-  min-width: 300px;
+  min-width: 275px;
   background: #000;
   margin: 2.5rem auto 2.5rem;
 }
@@ -884,7 +889,7 @@ div.caption {
 
 .SR {
   width: 100%;
-  margin: 1.5rem;
+  margin: 1.3rem;
 }
 
 .SR img {
