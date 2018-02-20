@@ -394,7 +394,7 @@ img {
   width: 60%;
   display: flex;
   align-items: center;
-  min-width: 278px;
+  min-width: 270px;
   justify-content: center;
 }
 
@@ -430,12 +430,26 @@ img {
 }
 
 .div_104_span {
-  height: 5.625rem;
-  background: #292637;
   display: flex;
-  align-items: center;
   color: white;
-  font-size: 125%;
+  position: relative;
+  font-size: 120%;
+  flex-direction: column;
+}
+
+.p_one {
+  position: absolute;
+  left: 10%;
+}
+
+.p_two {
+  position: absolute;
+  left: 40.7%;
+}
+
+.p_three {
+  align-self: flex-end;
+  width: 25.3%;
 }
 
 .div_104 {
@@ -444,30 +458,17 @@ img {
 
 .div10_price {
   position: absolute;
-  left: 35.3%;
+  left: 40.7%;
   top: 0.8rem;
   color: #292637;
   font-size: 120%;
 }
 
-.p_one {
-  padding-left: 9.86%;
-  width: 6.34%;
-}
-
-.p_two {
-  padding-left: 19.04%;
-  width: 9.96%;
-}
-
-.p_three {
-  padding-left: 23.04%;
-  width: 19.43%;
-}
-
 .div10_span {
   position: relative;
   border: 1px solid black;
+  border-right: none;
+  border-left: none;
   height: 2.5rem;
   display: flex;
   color: #292637;
@@ -482,9 +483,6 @@ img {
 .div10_span:hover {
   color: white;
   background: #292637;
-  //.div10_price {
-  //  color: white;
-  //}
 }
 
 .div_104:hover .div10_price {
@@ -493,9 +491,9 @@ img {
 
 .div10_p_one, .div10_p_two {
   position: absolute;
-  padding-left: 58.5%;
+  padding-left: 64.5%;
   top: -13px;
-  display: flex;
+  width: 10%;
 }
 
 .active p:first-child {
@@ -697,10 +695,6 @@ span.mask {
   overflow: hidden;
 }
 
-span.rotator.move {
-  /* left: 0 */
-}
-
 span.mask.move {
   width: 40px;
   left: 0;
@@ -728,14 +722,6 @@ span.pause.active {
   opacity: 1
 }
 
-/* CAPTIONS
-   ================================================== */
-
-.orbit-caption {
-  /* display: none; */
-  /* font-family: "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif; */
-}
-
 .orbit-wrapper .orbit-caption {
   background: #000;
   background: rgba(0, 0, 0, .6);
@@ -749,9 +735,6 @@ span.pause.active {
   bottom: 0;
   width: 100%;
 }
-
-/* DIRECTIONAL NAV
-   ================================================== */
 
 div.slider-nav {
   display: block;
@@ -778,9 +761,6 @@ div.slider-nav span.left {
   background-size: 100% 100%;
   left: 0;
 }
-
-/* BULLET NAV
-   ================================================== */
 
 .orbit-bullets {
   position: absolute;
@@ -922,7 +902,7 @@ div.caption {
     margin-top: -10.5rem;
   }
   body {
-    //font-size: 90%;
+    font-size: 90%;
   }
 }
 
@@ -930,11 +910,8 @@ div.caption {
   .div10_price {
     left: 45.3%;
   }
-  .div10_p_one, .div10_p_two {
-    padding-left: 68.5%;
-  }
   .p_two {
-    padding-left: 29.04%;
+    left: 45.7%;
   }
 }
 
@@ -972,9 +949,9 @@ div.caption {
   }
 
   .block_two_h3 {
-     display: block;
-     font-size: 20px;
-   }
+    display: block;
+    font-size: 20px;
+  }
 
   .marketing_wrapper {
     display: block;
@@ -1088,6 +1065,12 @@ div.caption {
   }
 }
 
+@media screen and (max-width: 655px) {
+  .div10_span {
+    width: 89.9%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   div.orbit > img {
     height: 80%;
@@ -1153,6 +1136,18 @@ div.caption {
   div.orbit > img {
     height: 70%;
   }
+  .p_two {
+    display: none;
+  }
+  .p_three {
+    width: 38.3%;
+  }
+  .div10_p_one, .div10_p_two {
+    padding-left: 50.5%;
+  }
+  .div10_price {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -1197,5 +1192,8 @@ div.caption {
 
   div.timer {
     left: 395%;
+  }
+  .input_2 {
+    margin: 0 2%;
   }
 }
