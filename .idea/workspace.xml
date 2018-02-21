@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7ee94b9-5401-44ad-becd-bfc42444462f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.ejs" afterPath="$PROJECT_DIR$/src/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/index.scss" afterPath="$PROJECT_DIR$/src/style/index.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,8 +37,8 @@
           <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/style/index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
-                  <caret line="1001" column="15" lean-forward="false" selection-start-line="1001" selection-start-column="15" selection-end-line="1001" selection-end-column="15" />
+                <state relative-caret-position="275">
+                  <caret line="1075" column="3" lean-forward="true" selection-start-line="1075" selection-start-column="3" selection-end-line="1075" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -341,7 +340,7 @@
       <workItem from="1519033864412" duration="6166000" />
       <workItem from="1519122140459" duration="1216000" />
       <workItem from="1519220272405" duration="107000" />
-      <workItem from="1519220411588" duration="5029000" />
+      <workItem from="1519220411588" duration="5745000" />
     </task>
     <task id="LOCAL-00001" summary="RS">
       <created>1516282770353</created>
@@ -368,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272062000" />
+    <option name="totallyTimeSpent" value="272778000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -742,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="1001" column="15" lean-forward="false" selection-start-line="1001" selection-start-column="15" selection-end-line="1001" selection-end-column="15" />
+        <state relative-caret-position="275">
+          <caret line="1075" column="3" lean-forward="true" selection-start-line="1075" selection-start-column="3" selection-end-line="1075" selection-end-column="3" />
           <folding />
         </state>
       </provider>
