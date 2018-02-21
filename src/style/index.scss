@@ -324,6 +324,7 @@ img {
 
 .div_3_info {
   display: flex;
+  max-width: 1200px;
   flex-wrap: wrap;
   padding: 0 8.007%;
 }
@@ -598,8 +599,8 @@ img {
 
 .port {
   height: 620px;
-  max-width:  1200px;
-  min-width:  320px;
+  max-width: 1200px;
+  min-width: 320px;
   width: 68.359375%;
   position: relative;
   margin: 0 auto;
@@ -658,13 +659,23 @@ img {
 }
 
 .sqr5 {
-  filter: opacity(100%);
   width: 48.2%;
   height: 152px;
   top: 87.6%;
   color: white;
   text-align: center;
   line-height: 1;
+}
+
+.sqr5 p {
+  transition: all 0.6s ease-in-out;
+}
+
+.sqr5:hover {
+  p {
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+  }
 }
 
 .slider {
@@ -676,210 +687,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-//
-//.container {
-//  width: 75%;
-//  height: 64%;
-//}
-//
-//.orbit {
-//  width: auto;
-//  height: auto;
-//}
-//
-//#featured {
-//  width: 475% !important;
-//  height: 100% !important;
-//  overflow: hidden;
-//}
-//
-//div.orbit-wrapper {
-//  width: 24%;
-//  height: 100% !important;
-//  position: relative;
-//  left: -7%;
-//}
-//
-//div.orbit {
-//  width: 100px;
-//  height: 100px;
-//  position: relative;
-//  overflow: hidden
-//}
-//
-//div.orbit > img {
-//  position: absolute;
-//  top: 0;
-//  left: 0;
-//  height: 100%;
-//  width: 100%;
-//  max-width: 100%;
-//}
-//
-//div.orbit > a {
-//  border: none;
-//  position: absolute;
-//  top: 0;
-//  left: 0;
-//  line-height: 0;
-//  display: none;
-//}
-//
-//.orbit > div {
-//  position: absolute;
-//  top: 0;
-//  left: 0;
-//  width: 100%;
-//  height: 100%;
-//}
-//
-//div.timer {
-//  width: 40px;
-//  left: 445%;
-//  overflow: inherit;
-//  position: absolute;
-//  top: 0;
-//  opacity: .6;
-//  cursor: pointer;
-//  z-index: 1001;
-//}
-//
-//span.rotator {
-//  display: block;
-//  width: 40px;
-//  height: 40px;
-//  position: absolute;
-//  top: 0;
-//  right: 0;
-//  background: url("/images/rotator-black.png") no-repeat;
-//  z-index: 3;
-//}
-//
-//span.mask {
-//  display: block;
-//  width: 20px;
-//  height: 40px;
-//  position: absolute;
-//  top: 0;
-//  right: 0;
-//  z-index: 2;
-//  overflow: hidden;
-//}
-//
-//span.mask.move {
-//  width: 40px;
-//  left: 0;
-//  background: url("/images/timer-black.png") repeat 0 0;
-//}
-//
-//span.pause {
-//  display: block;
-//  width: 40px;
-//  height: 40px;
-//  position: absolute;
-//  top: 0;
-//  left: 0;
-//  background: url("/images/pause-black.png") no-repeat;
-//  z-index: 4;
-//  opacity: 0;
-//}
-//
-//span.pause.active {
-//  background: url("/images/pause-black.png") no-repeat 0 -40px
-//}
-//
-//div.timer:hover span.pause,
-//span.pause.active {
-//  opacity: 1
-//}
-//
-//.orbit-wrapper .orbit-caption {
-//  background: #000;
-//  background: rgba(0, 0, 0, .6);
-//  z-index: 1000;
-//  color: #fff;
-//  text-align: center;
-//  padding: 7px 0;
-//  font-size: 81.25%;
-//  position: absolute;
-//  right: 0;
-//  bottom: 0;
-//  width: 100%;
-//}
-//
-//div.slider-nav {
-//  display: block;
-//}
-//
-//div.slider-nav span {
-//  width: 40%;
-//  height: 20%;
-//  text-indent: -9999px;
-//  position: absolute;
-//  z-index: 1000;
-//  top: 37%;
-//  cursor: pointer;
-//}
-//
-//div.slider-nav span.right {
-//  background: url("/images/right-arrow.png");
-//  background-size: 100% 100%;
-//  right: -375%;
-//}
-//
-//div.slider-nav span.left {
-//  background: url("/images/left-arrow.png");
-//  background-size: 100% 100%;
-//  left: 0;
-//}
-//
-//.orbit-bullets {
-//  position: absolute;
-//  z-index: 1000;
-//  list-style: none;
-//  bottom: -40px;
-//  left: 50%;
-//  margin-left: -50px;
-//  padding: 0;
-//}
-//
-//.orbit-bullets li {
-//  float: left;
-//  margin-left: 5px;
-//  cursor: pointer;
-//  color: #999;
-//  text-indent: -9999px;
-//  background: url("/images/bullets.jpg") no-repeat 4px 0;
-//  width: 13px;
-//  height: 12px;
-//  overflow: hidden;
-//}
-//
-//.orbit-bullets li.active {
-//  color: #222;
-//  background-position: -8px 0;
-//}
-//
-//.orbit-bullets li.has-thumb {
-//  background: none;
-//  width: 100px;
-//  height: 75px;
-//}
-//
-//.orbit-bullets li.active.has-thumb {
-//  background-position: 0 0;
-//  border-top: 2px solid #000;
-//}
-//
-//.timer {
-//  display: flex;
-//}
-//
-//div.caption {
-//  background: transparent;
-//  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-//  zoom: 1;
-//}
 
 .div7 {
   width: 96%;
@@ -975,6 +782,9 @@ img {
   body {
     font-size: 90%;
   }
+  .div10_p_one, .div10_p_two {
+    top: -7px;
+  }
 }
 
 /*@media screen and (max-width: 1000px) {*/
@@ -994,15 +804,15 @@ img {
   }
 }
 
-@media screen and (max-width: 750px) {
-  div.timer {
-    left: 435%;
-  }
-}
-
 @media screen and (max-width: 700px) {
-  div.orbit > img {
-    height: 90%;
+  .developer {
+    right: 12%;
+  }
+  .sidebar {
+    width: 10%;
+  }
+  .rs-container {
+    width: 75%;
   }
 }
 
@@ -1150,18 +960,6 @@ img {
   }
 }
 
-@media screen and (max-width: 600px) {
-  div.orbit > img {
-    height: 80%;
-  }
-  div.slider-nav span {
-    top: 29%;
-  }
-  div.timer {
-    left: 424%;
-  }
-}
-
 @media screen and (max-width: 550px) {
   .div1 img {
     top: 35%;
@@ -1185,10 +983,6 @@ img {
     margin-top: -2.5rem;
   }
 
-  div.slider-nav span {
-    height: 18%;
-  }
-
   .footer_subscribe {
     flex-direction: column;
     align-items: flex-start;
@@ -1204,6 +998,28 @@ img {
 }
 
 @media screen and (max-width: 505px) {
+  .developer {
+    right: 14%;
+    top: 81%;
+  }
+
+  .div1 {
+    height: 90vh;
+  }
+
+  .sidebar {
+    width: 13%;
+    height: 90vh;
+  }
+
+  .rs-container {
+    width: 90%;
+  }
+
+  .div2 {
+    display: none;
+  }
+
   .div_5_block p {
     font-size: 13px;
   }
@@ -1212,18 +1028,18 @@ img {
     margin-right: 1.4rem;
   }
 
-  div.orbit > img {
-    height: 70%;
-  }
   .p_two {
     display: none;
   }
+
   .p_three {
     width: 38.3%;
   }
+
   .div10_p_one, .div10_p_two {
     padding-left: 50.5%;
   }
+
   .div10_price {
     display: none;
   }
@@ -1232,19 +1048,6 @@ img {
 @media screen and (max-width: 450px) {
   .developer {
     font-size: 14px;
-  }
-
-  div.orbit > img {
-    height: 60%;
-  }
-
-  div.slider-nav span {
-    height: 13%;
-    top: 24%;
-  }
-
-  div.timer {
-    left: 410%;
   }
 }
 
@@ -1268,11 +1071,14 @@ img {
   .div10_span {
     font-size: 13px;
   }
-
-  div.timer {
-    left: 395%;
-  }
   .input_2 {
     margin: 0 2%;
+  }
+  .div10_p_one, .div10_p_two {
+    top: -2px;
+  }
+
+  .p_one {
+    top: 16%;
   }
 }
