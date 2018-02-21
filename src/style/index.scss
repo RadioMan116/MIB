@@ -596,219 +596,290 @@ img {
   margin: -2rem 0 8rem 0;
 }
 
+.port {
+  height: 620px;
+  max-width:  1200px;
+  min-width:  320px;
+  width: 68.359375%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.square {
+  background: #0e0f20;
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid white;
+  filter: opacity(85%);
+  transition: all 0.6s ease-in-out;
+}
+
+.square:hover {
+  filter: opacity(100%);
+  transition: all 0.6s ease-in-out;
+}
+
+.square img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.img5:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease-in-out;
+}
+
+.sqr1 {
+  width: 68.5714286%;
+  left: 0;
+  height: 50%;
+  top: -3%;
+}
+
+.sqr2 {
+  width: 31.4285714%;
+  left: 68.6%;
+  height: 47%;
+}
+
+.sqr3 {
+  width: 45.9%;
+  height: 252px;
+  top: 47.1%;
+  left: 2.2%;
+}
+
+.sqr4 {
+  left: 48.2%;
+  top: 47.1%;
+  width: 48.8571429%;
+  height: 404px;
+}
+
+.sqr5 {
+  filter: opacity(100%);
+  width: 48.2%;
+  height: 152px;
+  top: 87.6%;
+  color: white;
+  text-align: center;
+  line-height: 1;
+}
+
 .slider {
   width: 100%;
   background: url("/images/13501.png") no-repeat;
   background-size: cover;
-  height: 50rem;
+  height: 60rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.container {
-  width: 75%;
-  height: 64%;
-}
-
-.orbit {
-  width: auto;
-  height: auto;
-}
-
-#featured {
-  width: 475% !important;
-  height: 100% !important;
-  overflow: hidden;
-}
-
-div.orbit-wrapper {
-  width: 24%;
-  height: 100% !important;
-  position: relative;
-  left: -7%;
-}
-
-div.orbit {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  overflow: hidden
-}
-
-div.orbit > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  max-width: 100%;
-}
-
-div.orbit > a {
-  border: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 0;
-  display: none;
-}
-
-.orbit > div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-div.timer {
-  width: 40px;
-  left: 445%;
-  overflow: inherit;
-  position: absolute;
-  top: 0;
-  opacity: .6;
-  cursor: pointer;
-  z-index: 1001;
-}
-
-span.rotator {
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: url("/images/rotator-black.png") no-repeat;
-  z-index: 3;
-}
-
-span.mask {
-  display: block;
-  width: 20px;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  overflow: hidden;
-}
-
-span.mask.move {
-  width: 40px;
-  left: 0;
-  background: url("/images/timer-black.png") repeat 0 0;
-}
-
-span.pause {
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url("/images/pause-black.png") no-repeat;
-  z-index: 4;
-  opacity: 0;
-}
-
-span.pause.active {
-  background: url("/images/pause-black.png") no-repeat 0 -40px
-}
-
-div.timer:hover span.pause,
-span.pause.active {
-  opacity: 1
-}
-
-.orbit-wrapper .orbit-caption {
-  background: #000;
-  background: rgba(0, 0, 0, .6);
-  z-index: 1000;
-  color: #fff;
-  text-align: center;
-  padding: 7px 0;
-  font-size: 81.25%;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-div.slider-nav {
-  display: block;
-}
-
-div.slider-nav span {
-  width: 40%;
-  height: 20%;
-  text-indent: -9999px;
-  position: absolute;
-  z-index: 1000;
-  top: 37%;
-  cursor: pointer;
-}
-
-div.slider-nav span.right {
-  background: url("/images/right-arrow.png");
-  background-size: 100% 100%;
-  right: -375%;
-}
-
-div.slider-nav span.left {
-  background: url("/images/left-arrow.png");
-  background-size: 100% 100%;
-  left: 0;
-}
-
-.orbit-bullets {
-  position: absolute;
-  z-index: 1000;
-  list-style: none;
-  bottom: -40px;
-  left: 50%;
-  margin-left: -50px;
-  padding: 0;
-}
-
-.orbit-bullets li {
-  float: left;
-  margin-left: 5px;
-  cursor: pointer;
-  color: #999;
-  text-indent: -9999px;
-  background: url("/images/bullets.jpg") no-repeat 4px 0;
-  width: 13px;
-  height: 12px;
-  overflow: hidden;
-}
-
-.orbit-bullets li.active {
-  color: #222;
-  background-position: -8px 0;
-}
-
-.orbit-bullets li.has-thumb {
-  background: none;
-  width: 100px;
-  height: 75px;
-}
-
-.orbit-bullets li.active.has-thumb {
-  background-position: 0 0;
-  border-top: 2px solid #000;
-}
-
-.timer {
-  display: flex;
-}
-
-div.caption {
-  background: transparent;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-  zoom: 1;
-}
+//
+//.container {
+//  width: 75%;
+//  height: 64%;
+//}
+//
+//.orbit {
+//  width: auto;
+//  height: auto;
+//}
+//
+//#featured {
+//  width: 475% !important;
+//  height: 100% !important;
+//  overflow: hidden;
+//}
+//
+//div.orbit-wrapper {
+//  width: 24%;
+//  height: 100% !important;
+//  position: relative;
+//  left: -7%;
+//}
+//
+//div.orbit {
+//  width: 100px;
+//  height: 100px;
+//  position: relative;
+//  overflow: hidden
+//}
+//
+//div.orbit > img {
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  height: 100%;
+//  width: 100%;
+//  max-width: 100%;
+//}
+//
+//div.orbit > a {
+//  border: none;
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  line-height: 0;
+//  display: none;
+//}
+//
+//.orbit > div {
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  width: 100%;
+//  height: 100%;
+//}
+//
+//div.timer {
+//  width: 40px;
+//  left: 445%;
+//  overflow: inherit;
+//  position: absolute;
+//  top: 0;
+//  opacity: .6;
+//  cursor: pointer;
+//  z-index: 1001;
+//}
+//
+//span.rotator {
+//  display: block;
+//  width: 40px;
+//  height: 40px;
+//  position: absolute;
+//  top: 0;
+//  right: 0;
+//  background: url("/images/rotator-black.png") no-repeat;
+//  z-index: 3;
+//}
+//
+//span.mask {
+//  display: block;
+//  width: 20px;
+//  height: 40px;
+//  position: absolute;
+//  top: 0;
+//  right: 0;
+//  z-index: 2;
+//  overflow: hidden;
+//}
+//
+//span.mask.move {
+//  width: 40px;
+//  left: 0;
+//  background: url("/images/timer-black.png") repeat 0 0;
+//}
+//
+//span.pause {
+//  display: block;
+//  width: 40px;
+//  height: 40px;
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  background: url("/images/pause-black.png") no-repeat;
+//  z-index: 4;
+//  opacity: 0;
+//}
+//
+//span.pause.active {
+//  background: url("/images/pause-black.png") no-repeat 0 -40px
+//}
+//
+//div.timer:hover span.pause,
+//span.pause.active {
+//  opacity: 1
+//}
+//
+//.orbit-wrapper .orbit-caption {
+//  background: #000;
+//  background: rgba(0, 0, 0, .6);
+//  z-index: 1000;
+//  color: #fff;
+//  text-align: center;
+//  padding: 7px 0;
+//  font-size: 81.25%;
+//  position: absolute;
+//  right: 0;
+//  bottom: 0;
+//  width: 100%;
+//}
+//
+//div.slider-nav {
+//  display: block;
+//}
+//
+//div.slider-nav span {
+//  width: 40%;
+//  height: 20%;
+//  text-indent: -9999px;
+//  position: absolute;
+//  z-index: 1000;
+//  top: 37%;
+//  cursor: pointer;
+//}
+//
+//div.slider-nav span.right {
+//  background: url("/images/right-arrow.png");
+//  background-size: 100% 100%;
+//  right: -375%;
+//}
+//
+//div.slider-nav span.left {
+//  background: url("/images/left-arrow.png");
+//  background-size: 100% 100%;
+//  left: 0;
+//}
+//
+//.orbit-bullets {
+//  position: absolute;
+//  z-index: 1000;
+//  list-style: none;
+//  bottom: -40px;
+//  left: 50%;
+//  margin-left: -50px;
+//  padding: 0;
+//}
+//
+//.orbit-bullets li {
+//  float: left;
+//  margin-left: 5px;
+//  cursor: pointer;
+//  color: #999;
+//  text-indent: -9999px;
+//  background: url("/images/bullets.jpg") no-repeat 4px 0;
+//  width: 13px;
+//  height: 12px;
+//  overflow: hidden;
+//}
+//
+//.orbit-bullets li.active {
+//  color: #222;
+//  background-position: -8px 0;
+//}
+//
+//.orbit-bullets li.has-thumb {
+//  background: none;
+//  width: 100px;
+//  height: 75px;
+//}
+//
+//.orbit-bullets li.active.has-thumb {
+//  background-position: 0 0;
+//  border-top: 2px solid #000;
+//}
+//
+//.timer {
+//  display: flex;
+//}
+//
+//div.caption {
+//  background: transparent;
+//  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+//  zoom: 1;
+//}
 
 .div7 {
   width: 96%;
@@ -827,7 +898,7 @@ div.caption {
 
 .message {
   width: 46%;
-  min-width: 275px;
+  min-width: 320px;
   background: #000;
   margin: 2.5rem auto 2.5rem;
 }
@@ -905,6 +976,14 @@ div.caption {
     font-size: 90%;
   }
 }
+
+/*@media screen and (max-width: 1000px) {*/
+/*.sqr2 {*/
+/*top: 20%;*/
+/*left: 0;*/
+/*transition: all 0.6s ease-in-out;*/
+/*}*/
+/*}*/
 
 @media screen and (max-width: 800px) {
   .div10_price {
