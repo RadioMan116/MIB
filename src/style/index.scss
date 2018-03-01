@@ -37,7 +37,7 @@ img {
   position: absolute;
   top: 25%;
   left: 25%;
-  width: 58%;
+  width: 48%;
   min-width: 202px;
   animation: netflix_style 3.5s;
 }
@@ -292,55 +292,29 @@ img {
 
 .block_two_h3 {
   padding: 1.3125rem 0 0 9.66796875%;
-  display: none;
 }
 
 .marketing_wrapper {
   display: none;
 }
 
-.div3_wrapper_button {
-  display: none;
-}
-
-.div_3_button {
-  background: rgba(255, 255, 255, 0) !important;
-  padding-left: 10.112554% !important;
-  width: 25.9% !important;
-  white-space: nowrap;
-  border: none !important;
-}
-
-.div3_p {
-  left: 64px;
-  text-decoration: underline;
-  font-size: 87.5%;
-}
-
-.block_h3 {
-  padding: 3.3125rem 0 0 9.66796875%;
-  font-size: 150%;
+details {
+  margin-top: 2rem;
+  cursor: pointer;
 }
 
 .div_3_info {
   display: flex;
-  max-width: 1200px;
   flex-wrap: wrap;
   padding: 0 8.007%;
 }
 
-.div_3_main {
-  margin-left: 8.112554% !important;
-}
-
 .marketing, .diz, .work {
   width: 45.1%;
-  max-width: 28.125rem;
 }
 
 .usability, .adaptive, .seo {
   width: 45.1%;
-  max-width: 28.125rem;
   padding-left: 9.667969%;
 }
 
@@ -385,6 +359,7 @@ img {
   padding-left: 9.765625%;
   font-size: 112.5%;
   display: flex;
+  justify-content: space-between;
 }
 
 .who_text_p {
@@ -392,17 +367,19 @@ img {
 }
 
 .input_wrapper {
-  width: 60%;
+  width: 50%;
   display: flex;
   align-items: center;
   min-width: 270px;
   justify-content: center;
+  margin-right: 6%;
 }
 
 .input_1, .input_2 {
   padding: 1% 5%;
   margin: 0 5%;
   width: 20%;
+  min-width: 75px;
   background: #ffffff;
 }
 
@@ -597,10 +574,16 @@ img {
   margin: -2rem 0 8rem 0;
 }
 
+.slider_name {
+  font-size: 287.5%;
+  color: #0e0f20;
+  margin: -70px 0 46px 0px;
+}
+
 .port {
   height: 620px;
   max-width: 1200px;
-  min-width: 320px;
+  min-width: 700px;
   width: 68.359375%;
   position: relative;
   margin: 0 auto;
@@ -621,10 +604,21 @@ img {
 }
 
 .square img {
-
   width: 100%;
   height: 100%;
   transition: all 0.6s ease-in-out;
+}
+
+.popout {
+  position: absolute;
+  visibility: hidden;
+  left: -5%;
+  background: #000;
+  color: white;
+}
+
+.img5:hover > .popout_sqr1 {
+  visibility: visible;
 }
 
 .img5:hover {
@@ -685,6 +679,7 @@ img {
   background-size: cover;
   height: 60rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -706,7 +701,7 @@ img {
 
 .message {
   width: 46%;
-  min-width: 320px;
+  min-width: 500px;
   background: #000;
   margin: 2.5rem auto 2.5rem;
 }
@@ -763,7 +758,8 @@ img {
 
 .subcribe_block_two {
   display: flex;
-  margin: 3.7rem 0 0 2rem;
+  align-items: center;
+  margin: 31px 0 0 2rem;
 }
 
 .SR {
@@ -788,20 +784,50 @@ img {
   }
 }
 
-/*@media screen and (max-width: 1000px) {*/
-/*.sqr2 {*/
-/*top: 20%;*/
-/*left: 0;*/
-/*transition: all 0.6s ease-in-out;*/
-/*}*/
-/*}*/
-
 @media screen and (max-width: 800px) {
   .div10_price {
     left: 45.3%;
   }
   .p_two {
     left: 45.7%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .slider {
+    height: auto;
+  }
+  .slider_name {
+    margin: 32px 0 -10px;
+  }
+  .port {
+    position: static;
+    width: 80%;
+    min-width: 0;
+    height: auto;
+    transition: all 0.6s ease-in-out;
+  }
+  .square {
+    background: none;
+    border: none;
+    position: static;
+  }
+  .sqr1 {
+    width: 99%;
+    height: auto;
+    margin-top: 3rem;
+  }
+  .sqr2, .sqr3 {
+    width: 99%;
+    height: auto;
+  }
+  .sqr4 {
+    width: 99%;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+  .sqr5 {
+    display: none;
   }
 }
 
@@ -847,7 +873,6 @@ img {
     display: block;
     margin: 2rem 0 0 8.0078125%;
     width: 68%;
-
   }
 
   .div3_wrapper_button {
@@ -871,7 +896,7 @@ img {
     font-size: 19px;
   }
 
-  .block_h3, .div_3_info {
+  .div_3_info {
     display: none;
   }
 
@@ -880,7 +905,7 @@ img {
   }
 
   .adaptive, .seo, .usability {
-    width: 100%;
+    width: 90%;
     padding-left: 0;
   }
 
@@ -989,6 +1014,10 @@ img {
     align-items: flex-start;
   }
 
+  .message {
+    min-width: 400px;
+  }
+
   .subcribe_block_two {
     margin: 0;
   }
@@ -1005,7 +1034,7 @@ img {
   }
 
   .div1 {
-    height: 90vh;
+    height: 590px;
   }
 
   .sidebar {
@@ -1049,6 +1078,9 @@ img {
 @media screen and (max-width: 450px) {
   .developer {
     font-size: 14px;
+  }
+  .message {
+    min-width: 320px;
   }
 }
 
