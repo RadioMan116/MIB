@@ -609,15 +609,46 @@ details {
   transition: all 0.6s ease-in-out;
 }
 
+.popout_sqr1 {
+  right: 100%;
+  top: 44%;
+}
+
+.popout_sqr2 {
+  left: 100%;
+  top: 44.4%;
+}
+
+.popout_sqr3 {
+  right: 98%;
+  top: 81.9%;
+}
+
+.popout_sqr4 {
+  left: 97%;
+  top: 106.7%;
+}
+
 .popout {
   position: absolute;
   visibility: hidden;
-  left: -5%;
   background: #000;
   color: white;
 }
 
-.img5:hover > .popout_sqr1 {
+.portfolio_div1:hover > .popout_sqr1 {
+  visibility: visible;
+}
+
+.portfolio_div2:hover > .popout_sqr2 {
+  visibility: visible;
+}
+
+.portfolio_div3:hover > .popout_sqr3 {
+  visibility: visible;
+}
+
+.portfolio_div4:hover > .popout_sqr4 {
   visibility: visible;
 }
 

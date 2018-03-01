@@ -291,14 +291,14 @@
                 </p>
                 <div class="input_wrapper">
                     <a href="Mib_prezentatsia.pdf">
-                    <button class="input_1 button_input">
-                        <p class="input_p1">
-                            Прайс
-                        </p>
-                        <p class="input_p2">
-                            Скачать
-                        </p>
-                    </button>
+                        <button class="input_1 button_input">
+                            <p class="input_p1">
+                                Прайс
+                            </p>
+                            <p class="input_p2">
+                                Скачать
+                            </p>
+                        </button>
                     </a>
                     <button class="input_2 button_input">
                         <p class="input_p1">
@@ -310,13 +310,13 @@
                     </button>
                     <a href="/src/MIB_Dogovor.pdf" download>
                         <button class="input_2 input_3 button_input">
-                        <p class="input_p1">
-                            Договор
-                        </p>
-                        <p class="input_p2">
-                            Скачать
-                        </p>
-                    </button>
+                            <p class="input_p1">
+                                Договор
+                            </p>
+                            <p class="input_p2">
+                                Скачать
+                            </p>
+                        </button>
                     </a>
                 </div>
             </div>
@@ -895,38 +895,48 @@
     <div id="portfolio" class="slider">
         <h3 class="slider_name">Портфолио</h3>
         <div class="port">
-            <div class="popout_sqr1 popout">
-                Сайт "Манипулятор"
-            </div>
-            <a href="http://manipulatorpro.ru/" target="_blank">
-                <div class="square sqr1">
-                    <img class="img5" src="/images/manipulyator.jpg" alt="moscow">
+            <div class="portfolio_div1">
+                <div class="popout_sqr1 popout">
+                    Сайт "Манипулятор"
                 </div>
-            </a>
-            <div class="popout_sqr2 popout">
-                Сайт "Манипулятор"
+                <a href="http://manipulatorpro.ru/" target="_blank">
+                    <div class="square sqr1">
+                        <img class="img5" src="/images/manipulyator.jpg" alt="moscow">
+                    </div>
+                </a>
             </div>
-            <a href="">
-                <div class="square sqr2">
-                    <img class="img5" src="/images/logo_invest.jpg" alt="msc">
+            <div class="portfolio_div2">
+                <div class="popout_sqr2 popout">
+                    Логотип
                 </div>
-            </a>
-            <div class="popout_sqr3 popout">
-                Сайт "Манипулятор"
+                <a href="">
+                    <div class="square sqr2">
+                        <img class="img5" src="/images/logo_invest.jpg" alt="msc">
+                    </div>
+                </a>
             </div>
-            <a href="">
-                <div class="square sqr3">
-                    <img class="img5" src="/images/mib.jpg" alt="photo">
+            <div class="portfolio_div3">
+                <div class="popout_sqr3 popout">
+                    Сайт "Манипулятор"
                 </div>
-            </a>
-            <div class="popout_sqr4 popout">
-                Сайт "Манипулятор"
+                <a href="">
+                    <div class="square sqr3">
+                        <img class="img5" src="/images/mib.jpg" alt="photo">
+                    </div>
+                </a>
             </div>
-            <a href="http://teplyye-kvadraty.ru/" target="_blank">
-                <div class="square sqr4">
-                    <img class="img5" src="/images/kvadrati.jpg" alt="foto">
+            <div class="portfolio_div4">
+                <div class="popout_sqr4 popout">
+                    Сайт "Манипулятор"
                 </div>
-            </a>
+                <a href="http://teplyye-kvadraty.ru/" target="_blank">
+                    <div class="square sqr4">
+                        <img class="img5" src="/images/kvadrati.jpg" alt="foto">
+                    </div>
+                </a>
+            </div>
+
+
             <div class="square sqr5">
                 <p>Нравятся работы ?</p>
                 <p>Хотите уникальный сайт ?</p>
@@ -1008,6 +1018,7 @@
             $('.burger_trigger').toggleClass('active');
         })
     })
+
     //Анимация прокрутки
     function slowScroll(id) {
         var offset = 0;
@@ -1015,6 +1026,7 @@
             scrollTop: $(id).offset().top - offset
         }, 1000);
     }
+
     //    Выпадающая информация
     $(".div10_span").click(function () {
         $(this).toggleClass("active").siblings(".div10_main").slideToggle("slow");
