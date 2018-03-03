@@ -1151,7 +1151,7 @@ details {
     font-size: 14px;
   }
   .message {
-    min-width: 303px;
+    min-width: 365px;
   }
 }
 
@@ -1183,5 +1183,11 @@ details {
 
   .p_one {
     top: 16%;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .message {
+    min-width: 320px;
   }
 }
